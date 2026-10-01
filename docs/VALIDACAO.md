@@ -23,3 +23,7 @@ Inspeção visual em navegador, interação por teclado e teste em tela móvel. 
 5. Reabra o planejador e confira persistência.
 6. Confira filtros do portfólio, largura móvel e navegação com Tab.
 7. Estude as decisões e explique as limitações sem atribuir resultados fictícios à operação real.
+
+## Prévias e integração contínua
+
+Prévia SVG gerada a partir dos resultados fictícios executados, com gerador em `scripts/generate_preview.py`. O workflow `tests.yml` executa a suíte e verifica que a prévia é reproduzível. Capturas de interface em navegador não foram realizadas nesta etapa.

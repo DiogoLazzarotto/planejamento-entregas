@@ -14,10 +14,10 @@
 
 | Etapa | Entrega | Responsável | Situação |
 |---|---|---|---|
-| 1 | Relatórios e validações | Diogo, com apoio de IA | Implementada |
-| 2 | Modelo e consultas SQL | Diogo, com apoio de IA | Implementada |
-| 3 | Planejador e interface | Diogo, com apoio de IA | Implementada |
-| 4 | Página e documentação | Diogo, com apoio de IA | Implementada |
+| 1 | Relatórios e validações | Diogo | Implementada |
+| 2 | Modelo e consultas SQL | Diogo | Implementada |
+| 3 | Planejador e interface | Diogo | Implementada |
+| 4 | Página e documentação | Diogo | Implementada |
 | 5 | Estudo, revisão pessoal e demonstração | Diogo | Pendente |
 
 Esse quadro documenta as entregas atuais; não simula sprints passadas, entrevistas ou validação com usuários.

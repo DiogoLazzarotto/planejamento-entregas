@@ -1,6 +1,14 @@
 # Planejamento de entregas
 
-Aplicação local para cadastrar pedidos, criar viagens e atribuir cargas respeitando peso e data. API Python, banco SQLite e interface HTML/CSS/JavaScript. Projeto demonstrativo preparado com apoio de IA; produtores e veículos fictícios.
+[![Testes](https://github.com/DiogoLazzarotto/planejamento-entregas/actions/workflows/tests.yml/badge.svg)](https://github.com/DiogoLazzarotto/planejamento-entregas/actions/workflows/tests.yml)
+
+Aplicação local para cadastrar pedidos, criar viagens e atribuir cargas respeitando peso e data. API Python, banco SQLite e interface HTML/CSS/JavaScript. Projeto demonstrativo; produtores e veículos fictícios.
+
+## Prévia dos resultados
+
+![Prévia dos resultados do exemplo fictício](docs/assets/preview.svg)
+
+Imagem gerada a partir da execução dos dados fictícios; representa os resultados e regras, sem ser uma captura da interface. Reproduza com `python scripts/generate_preview.py`.
 
 ## Executar
 
@@ -60,3 +68,7 @@ cd planejamento-entregas
 ```
 
 [Voltar ao perfil](https://github.com/DiogoLazzarotto)
+
+## Verificação automática
+
+O GitHub Actions executa os testes em Python 3.11 e 3.12 em pushes para `main` e pull requests. Também regenera e compara a prévia com o arquivo versionado.
